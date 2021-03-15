@@ -110,6 +110,7 @@ ul li a:hover, ul li a:focus {
   -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.2);
   -o-box-shadow: 0 0 10px  rgba(0,0,0,0.2);
   border-radius: 10px;
+  display: none;
 }
 
 .links-menu ul li {
