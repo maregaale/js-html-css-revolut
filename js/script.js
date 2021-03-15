@@ -21,7 +21,7 @@ mainNavLinks.click(
 $(document).click(
   function (clickEvent) {
     if(mainNavLinks != clickEvent.target && mainNavLinks.has(clickEvent.target).length === 0){
-        linksMenu.hide();
+      linksMenu.hide();
     }
   }
 );
