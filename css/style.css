@@ -9,10 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  height: 100px;
-}
-
 .container {
   width: 90%;
   display: flex;
@@ -85,7 +81,12 @@ ul li a:hover, ul li a:focus {
 .button-custom.btn-app:hover {
   background-color: rgba(25, 28, 31, 0.84);
 }
+
+
 /* intestazione */
+header {
+  height: 100px;
+}
 /* blocco di sinistra */
 #personal-link {
   color: black;
@@ -114,6 +115,7 @@ ul li a:hover, ul li a:focus {
   border-radius: 10px;
   display: none;
 }
+
 
 .links-menu ul li {
   display: block;

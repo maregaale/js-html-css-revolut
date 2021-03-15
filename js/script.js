@@ -16,3 +16,12 @@ mainNavLinks.click(
     $(this).children(".links-menu").toggle();
   }
 );
+
+// al click sul documento si chiudono i menu
+$(document).click(
+  function (clickEvent) {
+    if(mainNavLinks != clickEvent.target && mainNavLinks.has(clickEvent.target).length === 0){
+        linksMenu.hide();
+    }
+  }
+);
