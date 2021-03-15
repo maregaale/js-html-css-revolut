@@ -13,7 +13,7 @@ mainNavLinks.mouseenter(
 // al click sui link della main-nav faccio sparire o comparire il menu
 mainNavLinks.click(
   function () {
-    $(this).children(".links-menu").toggle();
+    $(this).children(".links-menu").fadeToggle();
   }
 );
 
@@ -21,7 +21,7 @@ mainNavLinks.click(
 $(document).click(
   function (clickEvent) {
     if(mainNavLinks != clickEvent.target && mainNavLinks.has(clickEvent.target).length === 0){
-      linksMenu.hide();
+      linksMenu.fadeOut();
     }
   }
 );
