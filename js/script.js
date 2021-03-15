@@ -9,3 +9,9 @@ mainNavLinks.mouseenter(
     $(this).children(".links-menu").show();
   }
 );
+
+mainNavLinks.click(
+  function () {
+    $(this).children(".links-menu").toggle();
+  }
+);
